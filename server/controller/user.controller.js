@@ -4,7 +4,8 @@ const userController = express.Router();
 
 userController.get('/', (req, res) => {
   res.status(200).json({
-    status : 'success'
+    status : 'success',
+    hello  : 'james'
   });
 });
 
